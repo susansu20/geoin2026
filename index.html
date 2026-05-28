@@ -50,6 +50,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 16px;
   }
   .nav-logo {
     font-weight: 700;
@@ -57,11 +58,15 @@
     letter-spacing: 1.5px;
     color: var(--white);
     text-decoration: none;
+    white-space: nowrap;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .nav-cta {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     background: var(--amber);
     color: var(--navy);
     padding: 10px 18px;
@@ -70,8 +75,13 @@
     font-size: 14px;
     text-decoration: none;
     transition: transform 0.2s;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   .nav-cta:hover { transform: translateY(-1px); }
+  /* Short label shown only on narrow screens */
+  .nav-cta .cta-short { display: none; }
+  .nav-logo .logo-short { display: none; }
 
   /* ============ HERO ============ */
   .hero {
@@ -166,18 +176,6 @@
     gap: 20px;
     padding-top: 28px;
     border-top: 1px solid rgba(255,255,255,0.12);
-  }
-  .author-bubble {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: var(--amber);
-    color: var(--navy);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 16px;
   }
   .author-info { font-size: 14px; }
   .author-info .name { font-weight: 600; color: var(--white); }
@@ -920,6 +918,7 @@
   .susan-bubble {
     width: 40px;
     height: 40px;
+    min-width: 40px;
     border-radius: 50%;
     background: var(--amber);
     color: var(--navy);
@@ -927,6 +926,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 700;
+    flex-shrink: 0;
   }
   .susan-card .text {
     text-align: left;
@@ -960,6 +960,17 @@
     .pull-quote { font-size: 20px; padding-left: 20px; }
     .final-features { gap: 16px; }
   }
+
+  /* Swap to short CTA label when nav gets tight */
+  @media (max-width: 560px) {
+    .nav-logo { font-size: 14px; letter-spacing: 1px; }
+    .nav-cta { padding: 9px 15px; font-size: 13px; }
+    .nav-cta .cta-full { display: none; }
+    .nav-cta .cta-short { display: inline; }
+    .nav-logo .logo-full { display: none; }
+    .nav-logo .logo-short { display: inline; }
+    .nav-inner { padding: 0 18px; }
+  }
 </style>
 </head>
 <body>
@@ -967,8 +978,8 @@
 <!-- NAV -->
 <nav>
   <div class="nav-inner">
-    <a href="#" class="nav-logo">HUB SOLUTIONS DIGITAL</a>
-    <a href="https://zbooking.us/pUp4W" target="_blank" rel="noopener" class="nav-cta">Book a FREE GEO Audit →</a>
+    <a href="#" class="nav-logo"><span class="logo-full">HUB SOLUTIONS DIGITAL</span><span class="logo-short">HUB SOLUTIONS</span></a>
+    <a href="https://zbooking.us/pUp4W" target="_blank" rel="noopener" class="nav-cta"><span class="cta-full">Book a FREE GEO Audit →</span><span class="cta-short">FREE GEO Audit →</span></a>
   </div>
 </nav>
 
@@ -983,7 +994,6 @@
       AI search is rewriting how customers find businesses in Singapore. Most owners don't know. The ones who do are already moving. Here's what's actually happening, and what to do about it in the next 30 days.
     </p>
     <div class="hero-meta">
-      <div class="author-bubble">S</div>
       <div class="author-info">
         <div class="name">Susan</div>
         <div class="role">Founder, Hub Solutions Digital</div>
