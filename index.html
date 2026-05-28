@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7 Things Every Business Owner MUST KNOW About GEO Before It's Too Late | Hub Solutions Digital</title>
+<meta name="description" content="ChatGPT names 3 to 5 businesses. Not 10. Not page one. If you're not one of them, you're invisible to 73% of B2B buyers. Read this before your competitor does.">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@200,300,400,500,600,700&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root {
+    --navy: #1B2C6B;
+    --navy-deep: #131F4F;
+    --amber: #F5A623;
+    --light: #F4F6FB;
+    --white: #ffffff;
+    --text: #1B2C6B;
+    --text-soft: rgba(27, 44, 107, 0.7);
+    --text-muted: rgba(27, 44, 107, 0.5);
+    --border: rgba(27, 44, 107, 0.1);
+  }
+
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'General Sans', sans-serif;
+    background: var(--light);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+  .container-wide { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* ============ NAV ============ */
+  nav {
+    background: var(--navy);
+    color: var(--white);
+    padding: 18px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .nav-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-logo {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color: var(--white);
+    text-decoration: none;
+  }
+  .nav-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--amber);
+    color: var(--navy);
+    padding: 10px 18px;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    transition: transform 0.2s;
+  }
+  .nav-cta:hover { transform: translateY(-1px); }
+
+  /* ============ HERO ============ */
+  .hero {
+    background: var(--navy);
+    color: var(--white);
+    padding: 80px 0 120px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+  }
+  .hero-inner {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 32px;
+    position: relative;
+  }
+  .hero-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    background: rgba(245,166,35,0.15);
+    border: 1px solid rgba(245,166,35,0.35);
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 28px;
+  }
+  .hero-tag::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--amber);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--amber);
+  }
+  .hero h1 {
+    font-size: clamp(36px, 6vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -2px;
+    font-weight: 600;
+    margin-bottom: 28px;
+  }
+  .hero h1 .accent { color: var(--amber); font-weight: 700; }
+
+  .geo-word {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .geo-underline {
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 16px;
+    overflow: visible;
+  }
+  .geo-underline path {
+    stroke-dasharray: 220;
+    stroke-dashoffset: 220;
+    animation: draw-geo 8s ease-in-out infinite;
+  }
+  @keyframes draw-geo {
+    0%   { stroke-dashoffset: 220; opacity: 0; }
+    8%   { opacity: 1; }
+    35%  { stroke-dashoffset: 0; opacity: 1; }
+    65%  { stroke-dashoffset: 0; opacity: 1; }
+    85%  { stroke-dashoffset: 0; opacity: 0; }
+    100% { stroke-dashoffset: 220; opacity: 0; }
+  }
+  .hero-sub {
+    font-size: 20px;
+    line-height: 1.55;
+    color: rgba(255,255,255,0.8);
+    max-width: 680px;
+    margin-bottom: 36px;
+  }
+  .hero-meta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 28px;
+    border-top: 1px solid rgba(255,255,255,0.12);
+  }
+  .author-bubble {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--amber);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .author-info { font-size: 14px; }
+  .author-info .name { font-weight: 600; color: var(--white); }
+  .author-info .role { color: rgba(255,255,255,0.6); font-size: 13px; margin-top: 2px; }
+  .hero-meta .dot { width: 4px; height: 4px; background: rgba(255,255,255,0.3); border-radius: 50%; }
+  .hero-meta .read-time { font-size: 13px; color: rgba(255,255,255,0.55); }
+
+  /* ============ ARTICLE BODY ============ */
+  .article {
+    background: var(--white);
+    padding: 80px 0;
+    margin-top: -60px;
+    border-radius: 24px 24px 0 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .lede {
+    font-size: 22px;
+    line-height: 1.55;
+    color: var(--text);
+    margin-bottom: 48px;
+    font-weight: 500;
+  }
+  .lede b { color: var(--amber); font-weight: 700; }
+
+  .article p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--text);
+    margin-bottom: 24px;
+  }
+  .article p .hl {
+    background: linear-gradient(180deg, transparent 60%, rgba(245,166,35,0.4) 60%);
+    padding: 0 2px;
+    font-weight: 600;
+  }
+
+  .section {
+    margin-bottom: 64px;
+    scroll-margin-top: 100px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .section.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Reveal applies to standalone callout blocks too */
+  .reveal {
+    opacity: 0;
+    transform: translateY(36px);
+    transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Child stagger for stat rows / dot grids inside revealed sections */
+  .section .stats-row .stat-card,
+  .section .query-grid .query-chip,
+  .section .results .result-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+  .section.in-view .stats-row .stat-card,
+  .section.in-view .query-grid .query-chip,
+  .section.in-view .results .result-item {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .section.in-view .stats-row .stat-card:nth-child(1) { transition-delay: 0.10s; }
+  .section.in-view .stats-row .stat-card:nth-child(2) { transition-delay: 0.22s; }
+  .section.in-view .stats-row .stat-card:nth-child(3) { transition-delay: 0.34s; }
+  .section.in-view .query-grid .query-chip:nth-child(1) { transition-delay: 0.10s; }
+  .section.in-view .query-grid .query-chip:nth-child(2) { transition-delay: 0.18s; }
+  .section.in-view .query-grid .query-chip:nth-child(3) { transition-delay: 0.26s; }
+  .section.in-view .query-grid .query-chip:nth-child(4) { transition-delay: 0.34s; }
+  .section.in-view .query-grid .query-chip:nth-child(5) { transition-delay: 0.42s; }
+  .section.in-view .query-grid .query-chip:nth-child(6) { transition-delay: 0.50s; }
+  .section.in-view .results .result-item:nth-child(1) { transition-delay: 0.10s; }
+  .section.in-view .results .result-item:nth-child(2) { transition-delay: 0.20s; }
+  .section.in-view .results .result-item:nth-child(3) { transition-delay: 0.30s; }
+  .section.in-view .results .result-item:nth-child(4) { transition-delay: 0.40s; }
+  .section.in-view .results .result-item:nth-child(5) { transition-delay: 0.50s; }
+
+  /* Honor reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .section, .reveal,
+    .section .stats-row .stat-card,
+    .section .query-grid .query-chip,
+    .section .results .result-item {
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
+    }
+    .geo-underline path { animation: none; stroke-dashoffset: 0; }
+    .line-down, .line-up { animation: none; stroke-dashoffset: 0; }
+    .line-down-area, .line-up-area, .dot-down, .dot-up, .callout-down, .callout-up { animation: none; opacity: 1; }
+    .line-down-area, .line-up-area { opacity: 0.5; }
+  }
+
+  /* ============ MARKET SHARE CHART ============ */
+  .chart-block {
+    background: var(--navy);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 36px 32px 28px;
+    margin: 40px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .chart-block::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 20% 100%, rgba(220,38,38,0.12), transparent 50%),
+                radial-gradient(circle at 80% 0%, rgba(245,166,35,0.12), transparent 50%);
+    pointer-events: none;
+  }
+  .chart-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 28px;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .chart-lbl {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 6px;
+  }
+  .chart-title {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+  .chart-legend {
+    display: flex;
+    gap: 18px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+    font-weight: 500;
+  }
+  .lg-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .lg-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  .lg-on { background: var(--amber); box-shadow: 0 0 12px rgba(245,166,35,0.5); }
+  .lg-off { background: #dc2626; }
+  .chart-svg {
+    display: block;
+    width: 100%;
+    height: 360px;
+    position: relative;
+  }
+
+  /* Chart line draw animation, loops every 5s */
+  .line-down, .line-up {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: draw-line 5s ease-in-out infinite;
+  }
+  .line-up { animation-delay: 0.15s; }
+
+  .line-down-area, .line-up-area,
+  .dot-down, .dot-up,
+  .callout-down, .callout-up {
+    opacity: 0;
+    animation: fade-in 5s ease-in-out infinite;
+  }
+  .dot-up, .callout-up { animation-delay: 0.15s; }
+  .line-up-area { animation-delay: 0.15s; }
+
+  @keyframes draw-line {
+    0%   { stroke-dashoffset: 800; }
+    10%  { stroke-dashoffset: 800; }
+    55%  { stroke-dashoffset: 0; }
+    80%  { stroke-dashoffset: 0; opacity: 1; }
+    95%  { stroke-dashoffset: 0; opacity: 0; }
+    100% { stroke-dashoffset: 800; opacity: 0; }
+  }
+  @keyframes fade-in {
+    0%   { opacity: 0; }
+    20%  { opacity: 0; }
+    55%  { opacity: 1; }
+    80%  { opacity: 1; }
+    95%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  .line-up-area, .line-down-area { animation-name: fade-in-area; }
+  @keyframes fade-in-area {
+    0%   { opacity: 0; }
+    20%  { opacity: 0; }
+    55%  { opacity: 0.5; }
+    80%  { opacity: 0.5; }
+    95%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  .chart-footer {
+    margin-top: 16px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    position: relative;
+  }
+
+  .section-num {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 14px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 16px;
+  }
+  .section-num .digit {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--navy);
+    letter-spacing: -2px;
+  }
+
+  .article h2 {
+    font-size: clamp(28px, 4vw, 38px);
+    line-height: 1.15;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 20px;
+  }
+
+  /* ============ STAT BLOCKS ============ */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 40px 0;
+  }
+  .stat-card {
+    background: var(--navy);
+    color: var(--white);
+    padding: 32px 24px;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  .stat-card .num {
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--amber);
+    line-height: 1;
+    letter-spacing: -2px;
+    margin-bottom: 12px;
+  }
+  .stat-card .lbl {
+    font-size: 14px;
+    line-height: 1.45;
+    color: rgba(255,255,255,0.8);
+    font-weight: 500;
+  }
+
+  /* ============ THE LIST CALLOUT ============ */
+  .ai-list-viz {
+    background: var(--navy);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .ai-list-viz::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 80% 20%, rgba(245,166,35,0.15), transparent 50%);
+    pointer-events: none;
+  }
+  .ai-list-viz .vlbl {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 14px;
+    position: relative;
+  }
+  .ai-list-viz .q {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 28px;
+    font-style: italic;
+    position: relative;
+  }
+  .ai-list-viz .results {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+  }
+  .result-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .result-item.winner {
+    background: rgba(245,166,35,0.15);
+    border-color: var(--amber);
+    color: var(--white);
+  }
+  .result-item.winner .badge {
+    background: var(--amber);
+    color: var(--navy);
+  }
+  .result-item .badge {
+    width: 28px;
+    height: 28px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+  .result-item.muted {
+    opacity: 0.4;
+    background: rgba(255,255,255,0.02);
+  }
+
+  /* Query chips grid */
+  .query-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+    margin: 32px 0;
+  }
+  .query-chip {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--amber);
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--navy);
+    font-style: italic;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .query-chip:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(27,44,107,0.08);
+  }
+
+  /* ============ FORMULA BLOCK ============ */
+  .formula-block {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 48px 40px;
+    margin: 40px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .formula-block::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -10%;
+    width: 120%;
+    height: 200%;
+    background: radial-gradient(ellipse at center, rgba(245,166,35,0.12), transparent 60%);
+    pointer-events: none;
+  }
+  .formula-block .lbl {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .formula {
+    font-size: clamp(28px, 5vw, 44px);
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    position: relative;
+    margin-bottom: 16px;
+  }
+  .formula .div { color: rgba(255,255,255,0.4); margin: 0 12px; font-weight: 400; }
+  .formula .eq { color: var(--amber); margin: 0 12px; font-weight: 700; }
+  .formula .out { color: var(--amber); font-weight: 700; }
+  .formula-block .note {
+    font-size: 15px;
+    color: rgba(255,255,255,0.65);
+    position: relative;
+  }
+
+  /* ============ BUCKET TABLE ============ */
+  .buckets {
+    margin: 40px 0;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  .bucket-row {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1.5fr;
+    align-items: center;
+    padding: 20px 24px;
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    transition: background 0.2s;
+  }
+  .bucket-row:last-child { border-bottom: none; }
+  .bucket-row:hover { background: var(--light); }
+  .bucket-row.header {
+    background: var(--navy);
+    color: var(--white);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .bucket-row.header:hover { background: var(--navy); }
+  .bucket-row .type {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--navy);
+  }
+  .bucket-row .range {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--amber);
+  }
+  .bucket-row .example {
+    font-size: 14px;
+    color: var(--text-soft);
+  }
+  .bucket-row.header .type,
+  .bucket-row.header .range,
+  .bucket-row.header .example {
+    color: rgba(255,255,255,0.8);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  /* ============ SCRIPT QUOTE ============ */
+  .script-block {
+    background: var(--amber);
+    color: var(--navy);
+    border-radius: 20px;
+    padding: 48px 44px;
+    margin: 40px 0;
+    position: relative;
+  }
+  .script-block .lbl {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .script-block .quote-mark {
+    font-size: 120px;
+    line-height: 0.8;
+    font-weight: 700;
+    color: rgba(27,44,107,0.15);
+    position: absolute;
+    top: 24px;
+    right: 36px;
+  }
+  .script-quote {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 500;
+    position: relative;
+  }
+  .script-quote b { font-weight: 700; }
+
+  /* ============ COMPARISON ============ */
+  .comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 40px 0;
+  }
+  .compare-card {
+    padding: 32px 28px;
+    border-radius: 16px;
+    border: 2px solid var(--border);
+    background: var(--white);
+  }
+  .compare-card.bad {
+    border-color: rgba(220, 38, 38, 0.2);
+    background: rgba(220, 38, 38, 0.03);
+  }
+  .compare-card.good {
+    border-color: var(--amber);
+    background: rgba(245,166,35,0.06);
+  }
+  .compare-card .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .compare-card.bad .tag { color: #dc2626; }
+  .compare-card.good .tag { color: var(--amber); }
+  .compare-card h3 {
+    font-size: 22px;
+    line-height: 1.25;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+  }
+  .compare-card p {
+    font-size: 15px !important;
+    line-height: 1.55 !important;
+    color: var(--text-soft);
+    margin-bottom: 0 !important;
+  }
+
+  /* ============ PULL QUOTE ============ */
+  .pull-quote {
+    margin: 56px 0;
+    padding: 0 0 0 32px;
+    border-left: 4px solid var(--amber);
+    font-size: 26px;
+    line-height: 1.35;
+    font-weight: 500;
+    color: var(--navy);
+    letter-spacing: -0.5px;
+  }
+  .pull-quote .small {
+    display: block;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  /* ============ MID CTA ============ */
+  .mid-cta {
+    background: var(--navy);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 48px 40px;
+    margin: 64px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .mid-cta::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 0%, rgba(245,166,35,0.18), transparent 60%);
+    pointer-events: none;
+  }
+  .mid-cta .lbl {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 16px;
+    position: relative;
+  }
+  .mid-cta h3 {
+    font-size: clamp(24px, 4vw, 34px);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin-bottom: 12px;
+    position: relative;
+  }
+  .mid-cta p {
+    color: rgba(255,255,255,0.75) !important;
+    margin-bottom: 28px !important;
+    font-size: 17px !important;
+    position: relative;
+  }
+  .btn-amber {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--amber);
+    color: var(--navy);
+    padding: 18px 32px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+  }
+  .btn-amber:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(245,166,35,0.3); }
+  .btn-amber .arrow {
+    width: 28px;
+    height: 28px;
+    background: var(--navy);
+    color: var(--amber);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  /* ============ FINAL CTA ============ */
+  .final-cta {
+    background: var(--navy);
+    color: var(--white);
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .final-cta::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+  }
+  .final-cta-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 32px;
+    position: relative;
+  }
+  .final-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    background: rgba(245,166,35,0.15);
+    border: 1px solid rgba(245,166,35,0.35);
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 28px;
+  }
+  .final-cta h2 {
+    font-size: clamp(36px, 5.5vw, 56px);
+    line-height: 1.05;
+    letter-spacing: -2px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .final-cta h2 .accent { color: var(--amber); font-weight: 700; }
+  .final-cta-sub {
+    font-size: 19px;
+    line-height: 1.55;
+    color: rgba(255,255,255,0.75);
+    max-width: 580px;
+    margin: 0 auto 40px;
+  }
+  .final-features {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  .feat {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+    font-weight: 500;
+  }
+  .feat::before {
+    content: '✓';
+    width: 20px;
+    height: 20px;
+    background: var(--amber);
+    color: var(--navy);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .susan-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 24px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 100px;
+    margin-top: 36px;
+  }
+  .susan-bubble {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--amber);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .susan-card .text {
+    text-align: left;
+    font-size: 14px;
+  }
+  .susan-card .text .name { font-weight: 600; color: var(--white); }
+  .susan-card .text .role { color: rgba(255,255,255,0.55); font-size: 12px; }
+
+  /* ============ FOOTER ============ */
+  footer {
+    background: var(--navy-deep);
+    color: rgba(255,255,255,0.5);
+    padding: 32px 0;
+    text-align: center;
+    font-size: 13px;
+  }
+  footer a { color: var(--amber); text-decoration: none; }
+
+  /* ============ MOBILE ============ */
+  @media (max-width: 700px) {
+    .stats-row { grid-template-columns: 1fr; }
+    .comparison { grid-template-columns: 1fr; }
+    .bucket-row { grid-template-columns: 1fr; gap: 6px; padding: 16px; }
+    .bucket-row.header { display: none; }
+    .bucket-row .range { font-size: 22px; }
+    .bucket-row .example { font-size: 13px; }
+    .formula { font-size: 22px; }
+    .formula .div, .formula .eq { margin: 0 6px; }
+    .ai-list-viz, .formula-block, .script-block, .mid-cta { padding: 28px 22px; }
+    .article { padding: 60px 0; }
+    .pull-quote { font-size: 20px; padding-left: 20px; }
+    .final-features { gap: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">HUB SOLUTIONS DIGITAL</a>
+    <a href="https://zbooking.us/pUp4W" target="_blank" rel="noopener" class="nav-cta">Book a FREE GEO Audit →</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">Read this before your competitor does</div>
+    <h1>
+      7 things every business owner <span class="accent">MUST KNOW</span> about <span class="accent geo-word">GEO<svg class="geo-underline" viewBox="0 0 200 24" preserveAspectRatio="none" aria-hidden="true"><path d="M5 14 Q 50 4, 100 12 T 195 10" fill="none" stroke="#F5A623" stroke-width="4" stroke-linecap="round"/></svg></span> before it's too late.
+    </h1>
+    <p class="hero-sub">
+      AI search is rewriting how customers find businesses in Singapore. Most owners don't know. The ones who do are already moving. Here's what's actually happening, and what to do about it in the next 30 days.
+    </p>
+    <div class="hero-meta">
+      <div class="author-bubble">S</div>
+      <div class="author-info">
+        <div class="name">Susan</div>
+        <div class="role">Founder, Hub Solutions Digital</div>
+      </div>
+      <div class="dot"></div>
+      <div class="read-time">8 min read · Updated May 2026</div>
+    </div>
+  </div>
+</header>
+
+<!-- ARTICLE -->
+<main class="article">
+  <div class="container">
+
+    <p class="lede">
+      Right now, somewhere in Singapore, a customer is asking ChatGPT, <b>"Who's the best [your service] in Singapore?"</b> ChatGPT will name three to five businesses. Not ten. Not page one. Just three to five. If your name doesn't appear, you didn't lose the sale. You were never in the room.
+    </p>
+
+    <!-- ==== 1 ==== -->
+    <div class="section" id="s1">
+      <div class="section-num"><span class="digit">01</span><span>The numbers</span></div>
+      <h2>Singapore is the third highest AI adoption market in the world.</h2>
+      <p>This isn't speculation. It's measured. And the speed at which your customers have shifted from Google to AI search has caught most business owners completely off guard.</p>
+
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="num">53%</div>
+          <div class="lbl">of Singaporeans use AI tools. Third highest globally</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">73%</div>
+          <div class="lbl">of B2B buyers now use AI in their purchase research</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">3-5</div>
+          <div class="lbl">businesses ChatGPT names when asked for "the best". No matter the industry</div>
+        </div>
+      </div>
+
+      <p>Read those numbers again. <span class="hl">Three out of four B2B buyers</span> are using AI to decide who to talk to. And when they do, AI gives them a shortlist of three to five names. If you're not on the list, you're not being considered. Not at the bottom of a long search results page. <b>Not in the conversation at all.</b></p>
+    </div>
+
+    <!-- ==== 2 ==== -->
+    <div class="section" id="s2">
+      <div class="section-num"><span class="digit">02</span><span>What AI search actually looks like</span></div>
+      <h2>This is the new shortlist. Three names. Maybe five.</h2>
+      <p>When your customer types a question into ChatGPT, Perplexity, Claude, or Google AI Overviews, they don't get ten blue links. They get an answer. And the answer names a handful of businesses. Whether they're searching for fish and chips, a law firm, an interior designer, or matcha powder. Like this:</p>
+
+      <div class="ai-list-viz">
+        <div class="vlbl">ChatGPT answer</div>
+        <div class="q">"Best fish and chips in Singapore?"</div>
+        <div class="results">
+          <div class="result-item winner"><div class="badge">1</div><span>Smith Street Taps · strong reviews, well-cited in food blogs</span></div>
+          <div class="result-item winner"><div class="badge">2</div><span>The Boiler · clear positioning, structured menu pages</span></div>
+          <div class="result-item winner"><div class="badge">3</div><span>Greenwood Fish Market · visible across food guides and citations</span></div>
+          <div class="result-item muted"><div class="badge">?</div><span>Your restaurant · if your foundation isn't built for AI</span></div>
+          <div class="result-item muted"><div class="badge">?</div><span>97 other fish and chips spots · invisible to this customer</span></div>
+        </div>
+      </div>
+
+      <p>This isn't just about food. The same pattern plays out across every category in Singapore right now:</p>
+
+      <div class="query-grid">
+        <div class="query-chip">"Affordable law firm in Singapore"</div>
+        <div class="query-chip">"Best interior design firm"</div>
+        <div class="query-chip">"What shoe brand should I buy in Singapore"</div>
+        <div class="query-chip">"Best matcha powder for home lattes"</div>
+        <div class="query-chip">"Affordable fish and chips in Singapore"</div>
+        <div class="query-chip">"Best aesthetic clinic in Orchard"</div>
+      </div>
+
+      <p>Every single one of these queries gets a three-to-five business answer. Every one of them is happening, today, hundreds of times. <span class="hl">The brands cited become the default. Everyone else stays invisible.</span></p>
+
+      <p>The customer reads those three names. They click one. They book. <span class="hl">The other 97 businesses don't get the chance to compete.</span> Not because their service is worse. Because AI never mentioned them.</p>
+    </div>
+
+    <!-- ==== 3 ==== -->
+    <div class="section" id="s3">
+      <div class="section-num"><span class="digit">03</span><span>The formula no one is telling you</span></div>
+      <h2>Here's how to calculate exactly how much revenue you're losing every day.</h2>
+      <p>If you want to know how serious this is for your specific business, this is the math. It's simple. You can do it on the back of a napkin in two minutes.</p>
+
+      <div class="formula-block">
+        <div class="lbl">The GEO loss formula</div>
+        <div class="formula">
+          Annual market <span class="div">÷</span> 2 <span class="div">÷</span> 365 <span class="eq">=</span> <span class="out">leads/day</span>
+        </div>
+        <div class="note">Half your annual market is in the buying window at any time. Divide by 365 for the daily ask rate.</div>
+      </div>
+
+      <p>That number, leads per day, is how many customers in your market are asking AI for a recommendation right now. Every day. <b>If you're not in the top 3 to 5, that's how many leads you're losing every 24 hours.</b></p>
+    </div>
+
+    <!-- ==== 4 ==== -->
+    <div class="section" id="s4">
+      <div class="section-num"><span class="digit">04</span><span>What it looks like for your industry</span></div>
+      <h2>Most owners don't realise the daily loss until they see this table.</h2>
+      <p>We ran the formula across the categories we work with most often. Here's what we found:</p>
+
+      <div class="buckets">
+        <div class="bucket-row header">
+          <div class="type">Business type</div>
+          <div class="range">Leads/day</div>
+          <div class="example">Examples</div>
+        </div>
+        <div class="bucket-row">
+          <div class="type">Niche B2B</div>
+          <div class="range">20 – 70</div>
+          <div class="example">Boutique law firms, specialist consultancies, B2B SaaS</div>
+        </div>
+        <div class="bucket-row">
+          <div class="type">Mid-market</div>
+          <div class="range">70 – 270</div>
+          <div class="example">Digital agencies, mid-tier clinics, professional services</div>
+        </div>
+        <div class="bucket-row">
+          <div class="type">Mass consumer</div>
+          <div class="range">270 – 1,100</div>
+          <div class="example">F&B chains, aesthetics, fitness, travel</div>
+        </div>
+        <div class="bucket-row">
+          <div class="type">Massive</div>
+          <div class="range">1,400+</div>
+          <div class="example">Retail, e-commerce, lifestyle brands, large-scale services</div>
+        </div>
+      </div>
+
+      <p>Pick your row. Then ask yourself: <span class="hl">if you're not on the AI shortlist for your category, how many of those leads are you losing every single day?</span> Compound that over 30 days. 90 days. A year.</p>
+    </div>
+
+    <!-- ==== MID CTA ==== -->
+    <div class="mid-cta reveal">
+      <div class="lbl">Want the exact number for your business?</div>
+      <h3>Susan will run your personalised AI visibility audit, live.</h3>
+      <p>In 30 minutes, you'll see exactly where your business shows up across ChatGPT, Perplexity, Claude, and Google AI Overviews. You'll find out which competitors are being recommended instead of you. You'll get your daily loss number. You'll walk away knowing what's broken and what it takes to fix it.</p>
+      <a href="https://zbooking.us/pUp4W" target="_blank" rel="noopener" class="btn-amber">Book a FREE GEO Audit <span class="arrow">→</span></a>
+    </div>
+
+    <!-- ==== 5 ==== -->
+    <div class="section" id="s5">
+      <div class="section-num"><span class="digit">05</span><span>The script that wakes owners up</span></div>
+      <h2>If you remember nothing else from this article, remember this paragraph.</h2>
+      <p>We've worked with founders across legal, F&B, professional services, aesthetics, and B2B. When we explain GEO, this is the script that lands. We're putting it here so you can read it slowly:</p>
+
+      <div class="script-block">
+        <div class="quote-mark">"</div>
+        <div class="lbl">The Wake-Up Script</div>
+        <div class="script-quote">
+          Singapore has the <b>third highest AI adoption rate</b> in the world. 53%. As many as <b>1,000 buyers a day</b> are asking ChatGPT or AI searches for the best in your industry right now. ChatGPT names <b>3 to 5 businesses</b>. If you're not one of them, you're <b>invisible to 1,000 buyers a day.</b>
+        </div>
+      </div>
+
+      <p>Read it again, slowly. 1,000 buyers a day. Asking ChatGPT or AI search. Looking for the answer in your industry. <b>Most owners we audit have never seen this number before.</b> Once they do, the conversation changes.</p>
+    </div>
+
+    <!-- ==== 6 ==== -->
+    <div class="section" id="s6">
+      <div class="section-num"><span class="digit">06</span><span>Why traditional SEO is not the answer</span></div>
+      <h2>Hiring a 2015 SEO agency in 2026 is like optimising your Yellow Pages listing.</h2>
+      <p>The most expensive mistake we see right now: business owners paying SEO retainers to agencies still optimising for Google's classic ranking algorithm. Page one of Google still matters. But it's no longer where the decision happens.</p>
+
+      <div class="comparison">
+        <div class="compare-card bad">
+          <div class="tag">⊗ Traditional SEO (2015)</div>
+          <h3>Optimise for Google's blue links.</h3>
+          <p>Keyword stuffing. Backlink quantity. Page one rankings. Works for the 27% of buyers who still use traditional search. Useless for the 73% asking AI.</p>
+        </div>
+        <div class="compare-card good">
+          <div class="tag">✓ GEO (2026)</div>
+          <h3>Get cited by the AI itself.</h3>
+          <p>Structured content AI can parse. Entity authority. Citations across the web AI trusts. You become the name AI mentions when asked who's the best.</p>
+        </div>
+      </div>
+
+      <p>Both matter. But if your agency is only doing the left column, you're paying for visibility in a channel your customers are leaving. <span class="hl">Don't be the business that wins Yellow Pages and loses ChatGPT.</span></p>
+    </div>
+
+    <!-- ==== PULL QUOTE ==== -->
+    <div class="pull-quote reveal">
+      "Every customer who asks ChatGPT or AI searches and doesn't see your name is a customer you'll never even know you lost. That's not leaving money on the table. That's not being on the table at all."
+      <span class="small">— Susan, Hub Solutions Digital</span>
+    </div>
+
+    <!-- ==== MARKET SHARE DECLINE ==== -->
+    <div class="section" id="s7">
+      <div class="section-num"><span class="digit">07</span><span>The market share cliff</span></div>
+      <h2>Businesses ignoring GEO are projected to lose up to 60% of their organic market share by 2028.</h2>
+      <p>This isn't a marketing prediction. It's what's already happening in categories where AI search has saturated first. Here's the trajectory analysts are modelling for businesses that don't adapt:</p>
+
+      <div class="chart-block">
+        <div class="chart-head">
+          <div>
+            <div class="chart-lbl">Projected market share · businesses not optimised for AI search</div>
+            <div class="chart-title">100% → 40%</div>
+          </div>
+          <div class="chart-legend">
+            <span class="lg-item"><span class="lg-dot lg-on"></span>GEO-optimised</span>
+            <span class="lg-item"><span class="lg-dot lg-off"></span>Not optimised</span>
+          </div>
+        </div>
+
+        <svg class="chart-svg" viewBox="0 0 800 360" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="grad-down" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#dc2626" stop-opacity="0.35"/>
+              <stop offset="100%" stop-color="#dc2626" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="grad-up" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#F5A623" stop-opacity="0.45"/>
+              <stop offset="100%" stop-color="#F5A623" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+
+          <!-- gridlines -->
+          <line x1="60" y1="40"  x2="780" y2="40"  stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <line x1="60" y1="120" x2="780" y2="120" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <line x1="60" y1="200" x2="780" y2="200" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <line x1="60" y1="280" x2="780" y2="280" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+          <!-- y axis labels -->
+          <text x="50" y="44"  fill="rgba(255,255,255,0.45)" font-size="12" font-family="General Sans" text-anchor="end">100%</text>
+          <text x="50" y="124" fill="rgba(255,255,255,0.45)" font-size="12" font-family="General Sans" text-anchor="end">75%</text>
+          <text x="50" y="204" fill="rgba(255,255,255,0.45)" font-size="12" font-family="General Sans" text-anchor="end">50%</text>
+          <text x="50" y="284" fill="rgba(255,255,255,0.45)" font-size="12" font-family="General Sans" text-anchor="end">25%</text>
+
+          <!-- x axis labels -->
+          <text x="100"  y="330" fill="rgba(255,255,255,0.55)" font-size="13" font-family="General Sans" text-anchor="middle" font-weight="600">2024</text>
+          <text x="260" y="330" fill="rgba(255,255,255,0.55)" font-size="13" font-family="General Sans" text-anchor="middle" font-weight="600">2025</text>
+          <text x="420" y="330" fill="rgba(255,255,255,0.55)" font-size="13" font-family="General Sans" text-anchor="middle" font-weight="600">2026</text>
+          <text x="580" y="330" fill="rgba(255,255,255,0.55)" font-size="13" font-family="General Sans" text-anchor="middle" font-weight="600">2027</text>
+          <text x="740" y="330" fill="rgba(255,255,255,0.55)" font-size="13" font-family="General Sans" text-anchor="middle" font-weight="600">2028</text>
+
+          <!-- not optimised area + line -->
+          <path class="line-down-area" d="M 100 60 L 260 75 L 420 130 L 580 200 L 740 270 L 740 290 L 100 290 Z" fill="url(#grad-down)"/>
+          <path class="line-down" d="M 100 60 L 260 75 L 420 130 L 580 200 L 740 270" fill="none" stroke="#dc2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <!-- optimised area + line -->
+          <path class="line-up-area" d="M 100 60 L 260 55 L 420 50 L 580 45 L 740 40 L 740 290 L 100 290 Z" fill="url(#grad-up)" opacity="0.5"/>
+          <path class="line-up" d="M 100 60 L 260 55 L 420 50 L 580 45 L 740 40" fill="none" stroke="#F5A623" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <!-- end markers -->
+          <circle class="dot-down" cx="740" cy="270" r="7" fill="#dc2626" stroke="#1B2C6B" stroke-width="3"/>
+          <circle class="dot-up" cx="740" cy="40"  r="7" fill="#F5A623" stroke="#1B2C6B" stroke-width="3"/>
+
+          <!-- callout boxes -->
+          <g class="callout-down" transform="translate(620, 250)">
+            <rect x="0" y="0" width="115" height="34" rx="8" fill="#dc2626"/>
+            <text x="57.5" y="22" fill="#fff" font-size="14" font-weight="700" font-family="General Sans" text-anchor="middle">−60%</text>
+          </g>
+          <g class="callout-up" transform="translate(620, 18)">
+            <rect x="0" y="0" width="115" height="34" rx="8" fill="#F5A623"/>
+            <text x="57.5" y="22" fill="#1B2C6B" font-size="14" font-weight="700" font-family="General Sans" text-anchor="middle">+ Compounding</text>
+          </g>
+        </svg>
+
+        <div class="chart-footer">
+          <span>Source: GEO adoption modelling across early-saturated AI search categories, 2024–2026</span>
+        </div>
+      </div>
+
+      <p>The brands optimised for AI in 2026 will not just hold their position. They'll <b>absorb the share</b> their unoptimised competitors lose. AI search is winner-take-most. Once a name becomes the answer, it stays the answer. <span class="hl">The gap doesn't close. It widens.</span></p>
+
+      <p>In your category in Singapore, there are five seats. They're being filled right now. <b>By the time it's obvious, the seats will be taken.</b> If you've read this far, you already know what your gut is telling you. The question is whether you act now, or in 12 months when your competitor's name is the one ChatGPT keeps mentioning.</p>
+    </div>
+
+    <!-- ==== FINAL MID-CTA ==== -->
+    <div class="mid-cta reveal" id="book">
+      <div class="lbl">Your next step</div>
+      <h3>Find out exactly how visible you are on AI search.</h3>
+      <p>30 minutes with Susan. She runs your industry's formula live, shows you where you currently appear (or don't) on ChatGPT, Perplexity, Claude, and Google AI Overviews, and walks you through what it would take to be on the shortlist.</p>
+      <a href="https://zbooking.us/pUp4W" target="_blank" rel="noopener" class="btn-amber">Book a FREE GEO Audit <span class="arrow">→</span></a>
+    </div>
+
+  </div>
+</main>
+
+<!-- FINAL CTA -->
+<section class="final-cta" id="final">
+  <div class="final-cta-inner">
+    <div class="final-tag">Personalised GEO Audit · No obligation</div>
+    <h2>
+      Find out if you're on the<br>
+      <span class="accent">AI shortlist.</span>
+    </h2>
+    <p class="final-cta-sub">
+      A 30-minute call with Susan. She'll run your formula, show you your current AI visibility across ChatGPT, Perplexity, Claude, and Google AI Overviews, and tell you exactly what's standing between you and the shortlist.
+    </p>
+
+    <div class="final-features">
+      <span class="feat">Personalised to your category</span>
+      <span class="feat">Live AI search demo on your business</span>
+      <span class="feat">Risk Free: You Rank or We Don't Stop guarantee</span>
+    </div>
+
+    <a href="https://zbooking.us/pUp4W" target="_blank" rel="noopener" class="btn-amber">Book a FREE GEO Audit <span class="arrow">→</span></a>
+
+    <div class="susan-card">
+      <div class="susan-bubble">S</div>
+      <div class="text">
+        <div class="name">You'll speak directly with Susan</div>
+        <div class="role">Founder · Hub Solutions Digital · Multi-award winning</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    Hub Solutions Digital · Singapore · Multi-award winning digital consultancy · <a href="https://geo.hubsolutions.one">geo.hubsolutions.one</a>
+  </div>
+</footer>
+
+<script>
+  (function() {
+    const targets = document.querySelectorAll('.section, .reveal');
+    if (!('IntersectionObserver' in window)) {
+      targets.forEach(el => el.classList.add('in-view'));
+      return;
+    }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+    targets.forEach(el => io.observe(el));
+  })();
+</script>
+
+</body>
+</html>
